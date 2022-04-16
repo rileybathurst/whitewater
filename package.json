@@ -12,7 +12,9 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "gatsby": "^4.12.1",
@@ -28,5 +30,22 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "sass": "^1.50.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/builder-webpack5": "^6.4.22",
+    "@storybook/manager-webpack5": "^6.4.22",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "^0.0.9",
+    "babel-loader": "^8.2.4",
+    "storybook-addon-gatsby": "^0.0.5",
+    "css-loader": "^6.7.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1"
   }
 }
