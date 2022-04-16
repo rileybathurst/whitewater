@@ -1,0 +1,50 @@
+:root {
+  --penumbra: 0 3px 6px hsla(0, 0%, 0%, 0.12), 0 2px 4px hsla(0, 0%, 0%, 0.1);
+  --antumbra: 0 14px 24px hsla(0, 0%, 0%, 0.16),
+    0 4px 12px hsla(0, 0%, 0%, 0.12);
+  --umbra: 0 5px 12px hsla(0, 0%, 0%, 0.4) /* Ambient light shadow */,
+    0 18px 32px hsla(0, 0%, 0%, 0.16) /* Direct light shadow */;
+}
+
+/*------------------*/
+//  #PANTONE CARDS
+/*------------------*/
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pantone {
+  max-width: 25rem;
+  padding: 1rem;
+  font-family: sans-serif;
+
+  h1 {
+    margin-left: 0; // reset
+    display: block;
+  }
+}
+
+.pantone-card {
+  border: 0.5rem solid white;
+  box-shadow: var(--penumbra);
+  max-width: 20rem;
+  margin-inline: auto;
+  border-radius: 0.125rem;
+}
+
+.pantone-card__color {
+  aspect-ratio: 1;
+  border: hsla(0, 0%, 0%, 0.1) solid 1px;
+  border-radius: 0.125rem;
+}
+
+.pantone-card__text {
+  background: white;
+  padding: 1rem;
+
+  a {
+    text-decoration: underline;
+  }
+}

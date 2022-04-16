@@ -29,7 +29,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.50.0"
+    "sass": "^1.50.0",
+    "storybook-addon-sass-postcss": "^0.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
@@ -43,9 +44,12 @@
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.4",
-    "storybook-addon-gatsby": "^0.0.5",
     "css-loader": "^6.7.1",
+    "eslint": "^8.13.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-storybook": "^0.5.10",
     "sass-loader": "^12.6.0",
+    "storybook-addon-gatsby": "^0.0.5",
     "style-loader": "^3.3.1"
   }
 }
