@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import Button from 'color-cards';
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -129,6 +131,9 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+
+      <Button />
+
       <title>Home Page</title>
       <h1 style={headingStyles}>
         Congratulations

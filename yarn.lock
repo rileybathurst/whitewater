@@ -6094,6 +6094,11 @@
     "map-visit" "^1.0.0"
     "object-visit" "^1.0.0"
 
+"color-cards@^1.0.0":
+  "integrity" "sha512-R4QM9KoGzyLYBw2ampFLxwI1zk7kULxdwggRihxbjsLe7UpmjAsaTU5Jics4axdphqTxE5kFhW0e+dXLLh2jVA=="
+  "resolved" "https://registry.npmjs.org/color-cards/-/color-cards-1.0.2.tgz"
+  "version" "1.0.2"
+
 "color-convert@^1.9.0":
   "integrity" "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg=="
   "resolved" "https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz"
